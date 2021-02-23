@@ -10,5 +10,7 @@ const firebaseConfig = {
 };
 
 const firebase = window.firebase.initializeApp(firebaseConfig);
+// FielValue will allow to have access to some array method
+
 const { FieldValue } = window.firebase.firestore;
 export { firebase, FieldValue };
