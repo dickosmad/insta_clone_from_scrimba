@@ -6,11 +6,9 @@ import FirebaseContext from "./context/firebase";
 
 const rootElement = document.getElementById("root");
 ReactDOM.render(
-  <StrictMode>
-    <FirebaseContext.Provider value={(firebase, FieldValue)}>
-      <App />
-    </FirebaseContext.Provider>
-  </StrictMode>,
+  <FirebaseContext.Provider value={{ firebase, FieldValue }}>
+    <App />
+  </FirebaseContext.Provider>,
   rootElement
 );
 

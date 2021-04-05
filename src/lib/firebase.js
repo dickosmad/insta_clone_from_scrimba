@@ -1,12 +1,12 @@
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyDUxIViYbdjg9XsWAcEqQ19z-y7FAgISm4",
-  authDomain: "insta-clone-dicko.firebaseapp.com",
-  projectId: "insta-clone-dicko",
-  storageBucket: "insta-clone-dicko.appspot.com",
-  messagingSenderId: "234717167278",
-  appId: "1:234717167278:web:6241c91e937d9fbcdbf73f",
-  measurementId: "G-TPY9T2G8JE",
+  apiKey: "AIzaSyBzGzq7xDGODtoeeJsCLVo3jQn7xWsN4jY",
+  authDomain: "instagram-clone-324d1.firebaseapp.com",
+  projectId: "instagram-clone-324d1",
+  storageBucket: "instagram-clone-324d1.appspot.com",
+  messagingSenderId: "27875388148",
+  appId: "1:27875388148:web:7775ccaf7b510f15ea8ca1",
+  measurementId: "G-E5WM242549",
 };
 
 const firebase = window.firebase.initializeApp(firebaseConfig);
